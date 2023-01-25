@@ -1,0 +1,25 @@
+{
+    "name": "guizoxxv/laravel-breeze-bootstrap",
+    "description": "A Laravel package to use Bootstrap scaffolding with Breeze.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gustavo Simões",
+            "email": "guizoxxv@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Guizoxxv\\LaravelBreezeBootstrap\\": "src/"
+        }
+    },
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Guizoxxv\\LaravelBreezeBootstrap\\LaravelBreezeBootstrapServiceProvider"
+            ]
+        }
+    }
+}
