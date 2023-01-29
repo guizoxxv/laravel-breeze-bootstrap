@@ -56,3 +56,18 @@
     </div>
   </div>
 </div>
+
+@push('scripts')
+    @php $shouldOpenModal = $errors->userDeletion->isNotEmpty(); @endphp
+
+    <script>
+        let shouldOpenModal = {{ Js::from($shouldOpenModal) }};
+
+        if (shouldOpenModal) {
+            window.addEventListener('load', function() {
+                let deleteAccountModal = new bootstrap.Modal('#deleteAccountModal');
+                deleteAccountModal.toggle();
+            });
+        }
+    </script>
+@endPush
