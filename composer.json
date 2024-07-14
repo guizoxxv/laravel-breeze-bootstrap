@@ -4,7 +4,7 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Gustavo Simões",
+            "name": "Gustavo Oliveira",
             "email": "guizoxxv@gmail.com"
         }
     ],
@@ -14,7 +14,9 @@
             "Guizoxxv\\LaravelBreezeBootstrap\\": "src/"
         }
     },
-    "require": {},
+    "require": {
+        "laravel/breeze": "^2.1"
+    },
     "extra": {
         "laravel": {
             "providers": [
