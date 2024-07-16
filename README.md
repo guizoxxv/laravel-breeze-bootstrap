@@ -21,7 +21,7 @@ composer require guizoxxv/laravel-breeze-bootstrap
 2. Install Breeze Bootstrap stack
 
 ```
-php artisan breeze-bootstrap-install
+php artisan breeze-bootstrap:install
 ```
 
 3. Migrate your database:
