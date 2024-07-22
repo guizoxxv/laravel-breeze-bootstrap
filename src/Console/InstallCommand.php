@@ -24,7 +24,7 @@ class InstallCommand extends VendorInstallCommand
      *
      * @var string
      */
-    protected $description = 'Install the Breeze controllers and resources using the Boostrap stack';
+    protected $description = 'Install the Breeze controllers and resources using the Bootstrap stack';
 
     /**
      * Execute the console command.
