@@ -15,7 +15,7 @@ class InstallCommand extends VendorInstallCommand
      *
      * @var string
      */
-    protected $signature = 'breeze-boostrap:install
+    protected $signature = 'breeze-bootstrap:install
                             {--pest : Indicate that Pest should be installed}
                             {--composer=global : Absolute path to the Composer binary which should be used to install packages}';
 
