@@ -15,7 +15,7 @@ Bootstrap is not supported by default in authentication starter kits since Larav
 1. Require the package via Composer:
 
 ```
-composer require guizoxxv/laravel-breeze-bootstrap
+composer require guizoxxv/laravel-breeze-bootstrap --dev
 ```
 
 2. Install Breeze Bootstrap stack
